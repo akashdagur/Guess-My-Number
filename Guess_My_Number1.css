@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+}
+.game_body {
+  background-color: black;
+  border-radius: 10px;
+  height: 550px;
+  text-align: center;
+  position: absolute;
+  width: 500px;
+  top: 5%;
+  left: 30%;
+}
+.guess {
+  font-size: 30px;
+}
+.between {
+  font-size: 15px;
+}
+.inp_box {
+  border-radius: 2px;
+  border-style: double;
+  border-color: white;
+  font-size: 20px;
+  font-style: inherit;
+  text-align: center;
+  background: none;
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+  height: 30px;
+}
+
+.but_check {
+  color: black;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 15px;
+}
+.again_butt {
+  color: black;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 13px;
+}
